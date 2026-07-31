@@ -1,7 +1,26 @@
 aid: offerfit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/offerfit.png
 name: Offerfit
-description: Offerfit is a company surfaced as a portfolio company of menlo-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  OfferFit is an AI decisioning company whose reinforcement-learning platform
+  automated marketing experimentation and 1:1 personalization (replacing manual
+  A/B testing with self-learning agents). OfferFit was acquired by Braze in 2025
+  and its product now ships as the BrazeAI Decisioning Studio. The offerfit.ai
+  domain 301-redirects entirely to braze.com, and OfferFit publishes no
+  independent developer API, documentation, SDK, or developer portal of its own.
+  This profile was surfaced as a Menlo Ventures portfolio company and enriched
+  via live DNS/TLS/HTTP domain probes.
 url: https://raw.githubusercontent.com/api-evangelist/offerfit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,19 @@ x-backed-by:
 - menlo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: braze
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Marketing
+- Personalization
+- Decisioning
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,10 @@ maintainers:
 common:
 - type: Website
   url: https://offerfit.ai
+- type: DomainSecurity
+  url: security/offerfit-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
