@@ -1,0 +1,27 @@
+# Front Door AI Index — offerfit — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: offerfit
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: offerfit.ai
+  final_host: www.braze.com
+  ownership: own
+  owner: offerfit
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 22
+  host_score: 22
+  density: 25.52
+  words: 862
+  tiers:
+    agentic: 1
+    core: 21
+    model: 0
+  ambiguous: 11
+  top_terms:
+    AI: 21
+    agent: 11
+    AI agent: 1
